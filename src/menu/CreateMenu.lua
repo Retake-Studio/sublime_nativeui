@@ -511,7 +511,8 @@ function Menu:AddSubMenu(id, name)
         id = id,
         name = name,
         parent = self,
-        type = 'submenu'
+        type = 'submenu',
+        backgroundColor = self.backgroundColor
     }) 
     return self.children
 end
